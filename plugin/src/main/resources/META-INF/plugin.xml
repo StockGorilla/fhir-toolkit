@@ -1,0 +1,41 @@
+<!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
+<idea-plugin>
+    <id>com.fhirtools.plugin</id>
+    <name>FHIR Toolkit</name>
+    <vendor email="adhikaribipin@gmail.com">Bipin Adhikari</vendor>
+    <description><![CDATA[
+        <p><b>FHIR Toolkit</b> — productivity tooling for healthcare developers working with FHIR R4.</p>
+        <p>Open any FHIR resource JSON and get inline structural validation against the R4 spec. Generate minimum-valid resource skeletons from the editor. Hover on FHIR datatypes for inline documentation. Navigate Bundle references with a click.</p>
+        <h3>Features</h3>
+        <ul>
+            <li><b>Inline validation</b> — HAPI FHIR R4 validator surfaces issues as you type, with FHIRPath-resolved error locations.</li>
+            <li><b>Sample resource generator</b> — insert minimum-valid skeletons for Patient, Observation, Encounter, Bundle, Practitioner, and Organization.</li>
+            <li><b>Datatype hovers</b> — contextual documentation for CodeableConcept, Coding, Reference, Quantity, and Identifier properties.</li>
+            <li><b>Bundle navigation</b> — gutter icons next to <code>reference</code> values jump to the matching entry within the Bundle.</li>
+            <li><b>Code lookup</b> — curated LOINC, SNOMED CT, ICD-10-CM, and UCUM codes with hover-readable labels.</li>
+        </ul>
+        <p>Designed for engineers building EHR integrations, healthtech apps, and payer systems. Open source, no telemetry, no network calls.</p>
+    ]]></description>
+
+    <depends>com.intellij.modules.platform</depends>
+    <depends>com.intellij.modules.json</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <externalAnnotator language="JSON"
+                           implementationClass="com.fhirtools.plugin.annotator.FhirJsonAnnotator"/>
+        <codeInsight.lineMarkerProvider language="JSON"
+                                        implementationClass="com.fhirtools.plugin.bundle.BundleReferenceLineMarkerProvider"/>
+        <lang.documentationProvider language="JSON"
+                                    implementationClass="com.fhirtools.plugin.docs.FhirDocumentationProvider"/>
+    </extensions>
+
+    <actions>
+        <action id="com.fhirtools.plugin.InsertFhirResourceAction"
+                class="com.fhirtools.plugin.actions.InsertFhirResourceAction"
+                text="Insert FHIR Resource…"
+                description="Insert a minimum-valid FHIR R4 resource skeleton at cursor">
+            <add-to-group group-id="ToolsMenu" anchor="last"/>
+            <add-to-group group-id="EditorPopupMenu" anchor="last"/>
+        </action>
+    </actions>
+</idea-plugin>

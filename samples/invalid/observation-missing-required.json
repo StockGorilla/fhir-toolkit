@@ -1,0 +1,7 @@
+{
+  "resourceType": "Observation",
+  "id": "broken-observation",
+  "subject": {
+    "reference": "Patient/example"
+  }
+}

@@ -1,0 +1,23 @@
+# macOS
+.DS_Store
+
+# IntelliJ project metadata
+.idea/
+
+# Gradle
+.gradle/
+build/
+.kotlin/
+
+# IntelliJ Platform Gradle Plugin sandbox + caches
+.intellijPlatform/
+
+# Build artifacts
+*.zip
+plugin/build/
+
+# Internal planning + agent context — keep out of public pushes.
+CLAUDE.md
+reference/decisions.md
+reference/plan.md
+.claude/

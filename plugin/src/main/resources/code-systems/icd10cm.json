@@ -1,0 +1,23 @@
+{
+  "I10": "Essential (primary) hypertension",
+  "E11": "Type 2 diabetes mellitus",
+  "E11.9": "Type 2 diabetes mellitus without complications",
+  "E10": "Type 1 diabetes mellitus",
+  "E10.9": "Type 1 diabetes mellitus without complications",
+  "J45.909": "Unspecified asthma, uncomplicated",
+  "J44.9": "Chronic obstructive pulmonary disease, unspecified",
+  "I21.9": "Acute myocardial infarction, unspecified",
+  "I50.9": "Heart failure, unspecified",
+  "I63.9": "Cerebral infarction, unspecified",
+  "D64.9": "Anemia, unspecified",
+  "I48.91": "Unspecified atrial fibrillation",
+  "R50.9": "Fever, unspecified",
+  "R51": "Headache",
+  "R51.9": "Headache, unspecified",
+  "F32.9": "Major depressive disorder, single episode, unspecified",
+  "E78.5": "Hyperlipidemia, unspecified",
+  "H66.90": "Otitis media, unspecified, unspecified ear",
+  "J32.9": "Chronic sinusitis, unspecified",
+  "J06.9": "Acute upper respiratory infection, unspecified",
+  "R06.00": "Dyspnea, unspecified"
+}

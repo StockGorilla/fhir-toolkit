@@ -1,0 +1,256 @@
+{
+  "resourceType": "Bundle",
+  "id": "e049fb53-60f1-4b47-bdfe-a75aad7ae458",
+  "meta": {
+    "lastUpdated": "2026-05-09T04:09:54.858+00:00"
+  },
+  "type": "searchset",
+  "link": [ {
+    "relation": "self",
+    "url": "https://hapi.fhir.org/baseR4/Patient?_count=10&_format=json"
+  }, {
+    "relation": "next",
+    "url": "https://hapi.fhir.org/baseR4?_getpages=e049fb53-60f1-4b47-bdfe-a75aad7ae458&_getpagesoffset=10&_count=10&_format=json&_pretty=true&_bundletype=searchset"
+  } ],
+  "entry": [ {
+    "fullUrl": "https://hapi.fhir.org/baseR4/Patient/90277570",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "90277570",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2026-02-09T18:37:16.662+00:00",
+        "source": "#NZsYPK3ok15rUpJZ"
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">NuÃ±ez <b>KARLA </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Date of birth</td><td><span>02 January 1980</span></td></tr></tbody></table></div>"
+      },
+      "name": [ {
+        "family": "Karla",
+        "given": [ "NuÃ±ez" ]
+      } ],
+      "gender": "female",
+      "birthDate": "1980-01-02"
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "https://hapi.fhir.org/baseR4/Patient/90286136",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "90286136",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2026-02-09T18:38:01.664+00:00",
+        "source": "#RkKiRnP7LI3xO8j6"
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">NuÃ±ez <b>KARLA </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Date of birth</td><td><span>02 January 1980</span></td></tr></tbody></table></div>"
+      },
+      "name": [ {
+        "family": "Karla",
+        "given": [ "NuÃ±ez" ]
+      } ],
+      "gender": "female",
+      "birthDate": "1980-01-02"
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "https://hapi.fhir.org/baseR4/Patient/90288480",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "90288480",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2026-02-09T18:38:16.669+00:00",
+        "source": "#SSEByOVse3LdAJwM"
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">NuÃ±ez <b>KARLA </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Date of birth</td><td><span>02 January 1980</span></td></tr></tbody></table></div>"
+      },
+      "name": [ {
+        "family": "Karla",
+        "given": [ "NuÃ±ez" ]
+      } ],
+      "gender": "female",
+      "birthDate": "1980-01-02"
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "https://hapi.fhir.org/baseR4/Patient/90290271",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "90290271",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2026-02-09T18:38:26.675+00:00",
+        "source": "#aYsPbDSfqAIUT7T0"
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">NuÃ±ez <b>KARLA </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Date of birth</td><td><span>02 January 1980</span></td></tr></tbody></table></div>"
+      },
+      "name": [ {
+        "family": "Karla",
+        "given": [ "NuÃ±ez" ]
+      } ],
+      "gender": "female",
+      "birthDate": "1980-01-02"
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "https://hapi.fhir.org/baseR4/Patient/90291138",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "90291138",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2026-02-09T18:38:31.656+00:00",
+        "source": "#xv5J449OY3QMc05N"
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">NuÃ±ez <b>KARLA </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Date of birth</td><td><span>02 January 1980</span></td></tr></tbody></table></div>"
+      },
+      "name": [ {
+        "family": "Karla",
+        "given": [ "NuÃ±ez" ]
+      } ],
+      "gender": "female",
+      "birthDate": "1980-01-02"
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "https://hapi.fhir.org/baseR4/Patient/90293390",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "90293390",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2026-02-09T18:38:41.669+00:00",
+        "source": "#HnHgpTLBTU8xgH82"
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">NuÃ±ez <b>KARLA </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Date of birth</td><td><span>02 January 1980</span></td></tr></tbody></table></div>"
+      },
+      "name": [ {
+        "family": "Karla",
+        "given": [ "NuÃ±ez" ]
+      } ],
+      "gender": "female",
+      "birthDate": "1980-01-02"
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "https://hapi.fhir.org/baseR4/Patient/90387528",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "90387528",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2026-02-09T18:47:01.715+00:00",
+        "source": "#118438eg9S6dfDvC"
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">NuÃ±ez <b>KARLA </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Date of birth</td><td><span>02 January 1980</span></td></tr></tbody></table></div>"
+      },
+      "name": [ {
+        "family": "Karla",
+        "given": [ "NuÃ±ez" ]
+      } ],
+      "gender": "female",
+      "birthDate": "1980-01-02"
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "https://hapi.fhir.org/baseR4/Patient/90388620",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "90388620",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2026-02-09T18:47:06.702+00:00",
+        "source": "#GVXiLnrafWnGw8Gy"
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">NuÃ±ez <b>KARLA </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Date of birth</td><td><span>02 January 1980</span></td></tr></tbody></table></div>"
+      },
+      "name": [ {
+        "family": "Karla",
+        "given": [ "NuÃ±ez" ]
+      } ],
+      "gender": "female",
+      "birthDate": "1980-01-02"
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "https://hapi.fhir.org/baseR4/Patient/90391266",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "90391266",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2026-02-09T18:47:21.704+00:00",
+        "source": "#kKGKKSGya6r2J3Oa"
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">NuÃ±ez <b>KARLA </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Date of birth</td><td><span>02 January 1980</span></td></tr></tbody></table></div>"
+      },
+      "name": [ {
+        "family": "Karla",
+        "given": [ "NuÃ±ez" ]
+      } ],
+      "gender": "female",
+      "birthDate": "1980-01-02"
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "https://hapi.fhir.org/baseR4/Patient/90392155",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "90392155",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2026-02-09T18:47:26.711+00:00",
+        "source": "#hO7Un7FXAOktypaX"
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">NuÃ±ez <b>KARLA </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Date of birth</td><td><span>02 January 1980</span></td></tr></tbody></table></div>"
+      },
+      "name": [ {
+        "family": "Karla",
+        "given": [ "NuÃ±ez" ]
+      } ],
+      "gender": "female",
+      "birthDate": "1980-01-02"
+    },
+    "search": {
+      "mode": "match"
+    }
+  } ]
+}
