@@ -35,6 +35,10 @@
                     anchor="right"
                     icon="AllIcons.Toolwindows.ToolWindowHierarchy"
                     factoryClass="com.fhirtools.plugin.toolwindow.FhirBundleGraphToolWindowFactory"/>
+        <toolWindow id="FHIRPath"
+                    anchor="right"
+                    icon="AllIcons.Toolwindows.ToolWindowFind"
+                    factoryClass="com.fhirtools.plugin.toolwindow.FhirPathPlaygroundToolWindowFactory"/>
         <projectService serviceImplementation="com.fhirtools.plugin.server.MockFhirServerService"/>
         <notificationGroup id="FHIR Toolkit" displayType="BALLOON"/>
     </extensions>
