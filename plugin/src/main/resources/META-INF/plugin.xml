@@ -57,5 +57,12 @@
                 description="Start an in-memory mock FHIR R4 server on a local port for client testing">
             <add-to-group group-id="ToolsMenu" anchor="last"/>
         </action>
+        <action id="com.fhirtools.plugin.InsertFhirScenarioAction"
+                class="com.fhirtools.plugin.actions.InsertFhirScenarioAction"
+                text="Insert FHIR Scenario…"
+                description="Insert a multi-resource clinical scenario Bundle at cursor (diabetes, asthma, hypertension, MI, etc.)">
+            <add-to-group group-id="ToolsMenu" anchor="last"/>
+            <add-to-group group-id="EditorPopupMenu" anchor="last"/>
+        </action>
     </actions>
 </idea-plugin>
