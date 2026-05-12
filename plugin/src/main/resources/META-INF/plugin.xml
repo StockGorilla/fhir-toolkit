@@ -31,6 +31,10 @@
                     anchor="right"
                     icon="AllIcons.Toolwindows.ToolWindowStructure"
                     factoryClass="com.fhirtools.plugin.toolwindow.FhirResourceTreeToolWindowFactory"/>
+        <toolWindow id="Bundle Graph"
+                    anchor="right"
+                    icon="AllIcons.Toolwindows.ToolWindowHierarchy"
+                    factoryClass="com.fhirtools.plugin.toolwindow.FhirBundleGraphToolWindowFactory"/>
     </extensions>
 
     <actions>
