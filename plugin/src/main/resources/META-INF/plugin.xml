@@ -27,6 +27,10 @@
                                         implementationClass="com.fhirtools.plugin.bundle.BundleReferenceLineMarkerProvider"/>
         <lang.documentationProvider language="JSON"
                                     implementationClass="com.fhirtools.plugin.docs.FhirDocumentationProvider"/>
+        <toolWindow id="FHIR Resource"
+                    anchor="right"
+                    icon="AllIcons.Toolwindows.ToolWindowStructure"
+                    factoryClass="com.fhirtools.plugin.toolwindow.FhirResourceTreeToolWindowFactory"/>
     </extensions>
 
     <actions>
