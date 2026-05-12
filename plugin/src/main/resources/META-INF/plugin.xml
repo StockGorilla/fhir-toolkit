@@ -35,6 +35,8 @@
                     anchor="right"
                     icon="AllIcons.Toolwindows.ToolWindowHierarchy"
                     factoryClass="com.fhirtools.plugin.toolwindow.FhirBundleGraphToolWindowFactory"/>
+        <projectService serviceImplementation="com.fhirtools.plugin.server.MockFhirServerService"/>
+        <notificationGroup id="FHIR Toolkit" displayType="BALLOON"/>
     </extensions>
 
     <actions>
@@ -44,6 +46,12 @@
                 description="Insert a minimum-valid FHIR R4 resource skeleton at cursor">
             <add-to-group group-id="ToolsMenu" anchor="last"/>
             <add-to-group group-id="EditorPopupMenu" anchor="last"/>
+        </action>
+        <action id="com.fhirtools.plugin.RunMockFhirServerAction"
+                class="com.fhirtools.plugin.actions.RunMockFhirServerAction"
+                text="Run Mock FHIR Server"
+                description="Start an in-memory mock FHIR R4 server on a local port for client testing">
+            <add-to-group group-id="ToolsMenu" anchor="last"/>
         </action>
     </actions>
 </idea-plugin>
