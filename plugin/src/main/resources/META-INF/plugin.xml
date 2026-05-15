@@ -5,16 +5,21 @@
     <vendor email="adhikaribipin@gmail.com">Bipin Adhikari</vendor>
     <description><![CDATA[
         <p><b>FHIR Toolkit</b> — productivity tooling for healthcare developers working with FHIR R4.</p>
-        <p>Open any FHIR resource JSON and get inline structural validation against the R4 spec. Generate minimum-valid resource skeletons from the editor. Hover on FHIR datatypes for inline documentation. Navigate Bundle references with a click.</p>
+        <p>Inline validation, visual resource exploration, multi-resource scenario generation, an embedded mock server, and an interactive FHIRPath playground — all without leaving your IDE.</p>
         <h3>Features</h3>
         <ul>
             <li><b>Inline validation</b> — HAPI FHIR R4 validator surfaces issues as you type, with FHIRPath-resolved error locations.</li>
-            <li><b>Sample resource generator</b> — insert minimum-valid skeletons for Patient, Observation, Encounter, Bundle, Practitioner, and Organization.</li>
-            <li><b>Datatype hovers</b> — contextual documentation for CodeableConcept, Coding, Reference, Quantity, and Identifier properties.</li>
-            <li><b>Bundle navigation</b> — gutter icons next to <code>reference</code> values jump to the matching entry within the Bundle.</li>
-            <li><b>Code lookup</b> — curated LOINC, SNOMED CT, ICD-10-CM, and UCUM codes with hover-readable labels.</li>
+            <li><b>FHIR Resource tree tool window</b> — collapsible visual hierarchy of the active resource; click any node to navigate to that JSON element.</li>
+            <li><b>Bundle Graph tool window</b> — each entry shown with its outgoing references, marked ✓ resolved or ✗ unresolved within the Bundle. Click to navigate.</li>
+            <li><b>FHIRPath playground</b> — interactive query input + result panel; evaluates FHIRPath expressions against the open resource using HAPI's engine.</li>
+            <li><b>Mock FHIR server</b> — <code>Tools → Run Mock FHIR Server</code> spins up an in-memory R4 endpoint on a localhost port for client wiring tests.</li>
+            <li><b>Sample resource generator</b> — insert minimum-valid skeletons for Patient, Observation, Encounter, Bundle, Practitioner, Organization.</li>
+            <li><b>Insert FHIR Scenario</b> — pick from 4 hand-crafted multi-resource clinical Bundles (diabetes, pediatric asthma, hypertension+lipid panel, acute MI).</li>
+            <li><b>Datatype hovers</b> — contextual documentation for CodeableConcept, Coding, Reference, Quantity, Identifier properties.</li>
+            <li><b>Bundle reference navigation</b> — gutter icons next to <code>reference</code> values jump to the matching entry.</li>
+            <li><b>Curated code lookup</b> — ~380 hover-readable codes across LOINC, SNOMED CT, ICD-10-CM, and UCUM.</li>
         </ul>
-        <p>Designed for engineers building EHR integrations, healthtech apps, and payer systems. Open source, no telemetry, no network calls.</p>
+        <p>Designed for engineers building EHR integrations, healthtech apps, and payer systems. Open source, no telemetry, no outbound network calls. The optional Mock FHIR Server binds to <code>127.0.0.1</code> only.</p>
     ]]></description>
 
     <depends>com.intellij.modules.platform</depends>
