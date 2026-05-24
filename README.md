@@ -2,6 +2,9 @@
 
 JetBrains IDE plugin for FHIR R4 healthcare data tooling. Open source under Apache 2.0.
 
+- **Marketplace:** https://plugins.jetbrains.com/plugin/31676-fhir-toolkit
+- **Launch write-up:** [FHIR Toolkit — bringing FHIR R4 development into JetBrains IDEs](https://dev.to/adhikaribipin/fhir-toolkit-bringing-fhir-r4-development-into-jetbrains-ides-3f34) (what's inside v0.1 + v0.2, implementation notes)
+
 The actual plugin source lives in [`plugin/`](plugin/). See [`plugin/README.md`](plugin/README.md) for installation, features, and usage.
 
 ## Folder layout
